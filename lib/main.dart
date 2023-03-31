@@ -62,9 +62,6 @@ class _MainAppState extends State<MainApp> {
       // show the main app with navigation bar
       return MaterialApp(
         home: Scaffold(
-          appBar: AppBar(
-            title: const Text('Main App'),
-          ),
           body: _pages[_selectedIndex],
           bottomNavigationBar: BottomNavigationBar(
             currentIndex: _selectedIndex,
